@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+}
+
+.image {
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 23px;
+}
+
+.rating {
+  margin: 0;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.subtitle {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.descr {
+  margin: 0;
+  margin-bottom: 20px;
+  border: solid 1px orangered;
+  padding: 15px;
+  font-weight: 400;
+}
+
+.release {
+  margin: 0;
+  margin-bottom: 20px;
+  border: solid 1px orangered;
+  padding: 15px;
+  width: 200px;
+  font-weight: 500;
+}
+
+.genres {
+  margin: 0;
+  display: inline-flex;
+  border: solid 1px orangered;
+  padding: 5px 15px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.activeLink {
+  ime-mode: link;
+  color: orangered;
+}

@@ -1,0 +1,22 @@
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.descr {
+  margin: 0;
+  border: solid 1px orangered;
+  padding: 15px;
+  font-weight: 400;
+}
+
+.title {
+  margin-left: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+.item {
+  padding: 0;
+  list-style: none;
+}

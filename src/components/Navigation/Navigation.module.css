@@ -1,0 +1,16 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.activeLink {
+  ime-mode: link;
+  color: orangered;
+}
